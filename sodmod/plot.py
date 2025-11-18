@@ -116,8 +116,8 @@ def bifurcation(Vy_fwd, Vy_bwd, I_fwd, I_bwd, specs, figscale = 1, Nplots = None
         
         plotid = plotid + 1
 
-    ax[3].set_xlabel('ln of input current')
-    ax[3].set_ylabel('neuronal firing frequency')
+    ax[2].set_xlabel('ln of input current')
+    ax[2].set_ylabel('neuronal firing frequency')
     
     return fig
     
