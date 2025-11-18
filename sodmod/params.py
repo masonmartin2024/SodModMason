@@ -116,7 +116,7 @@ def params(cond = 'WT37', I_scale = 1, typ = 'IN', paradigm = 'step', I_off = 0,
         p['gK']   = 10.0            # potassium conductance (mS/cm^2)
         p['gNa']  = 50.0            # sodium conductance (mS/cm^2)
         p['gM']   = 0.07            # M type potassium conductance (mS/cm^2)
-        p['gL']   = 10             # leak conductance (mS/cm^2)
+        p['gL']   = 0.1             # leak conductance (mS/cm^2)
 
         # Reversal potentials
         #-------------------------------------------------------------------------------
