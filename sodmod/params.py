@@ -63,11 +63,11 @@ def params(cond = 'WT37', I_scale = 1, typ = 'IN', paradigm = 'step', I_off = 0,
     # Synaptic parameters (GABA-A transmitter)
     #-------------------------------------------------------------------------------
     p['Egaba'] = -80           # GABA reversal potential (Desthexe et al 1994)
-    p['aGABA'] = 2.12          # ms^(-1) mM^(-1)
-    p['bGABA'] = 0.046         # ms^(-1)
-    p['gGABA'] = 4             # µS
+    p['aGABA'] = 5          # ms^(-1) mM^(-1)
+    p['bGABA'] = 0.01         # ms^(-1)
+    p['gGABA'] = 8             # µS
     p['GABAamp'] = 1           # mM
-    p['GABAdur'] = 4           # ms
+    p['GABAdur'] = 8           # ms
 
 
     # Type-specific parameters
