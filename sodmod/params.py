@@ -342,7 +342,7 @@ def exvals(p, cond = 'WT37'):
              'rNaP' : 0.0191 }
             )
 
-     e.append({'name' : 'SCN2A',
+    e.append({'name' : 'SCN2A',
              'temp' : 37 + 273,
              'V2_m' : -20,
              's_m'  : 4.5,
