@@ -342,6 +342,15 @@ def exvals(p, cond = 'WT37'):
              'rNaP' : 0.0191 }
             )
 
+     e.append({'name' : 'SCN2A',
+             'temp' : 37 + 273,
+             'V2_m' : -20,
+             's_m'  : 4.5,
+             'V2_h' : -47,
+             's_h'  : -4,
+             'Frec' : 1.3,
+             'rNaP' : 0.03 }
+            )
 
     # Normalise to wildtype at 37 degrees and calculate differences
     #--------------------------------------------------------------------------
