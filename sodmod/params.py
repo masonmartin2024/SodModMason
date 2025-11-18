@@ -63,7 +63,7 @@ def params(cond = 'WT37', I_scale = 1, typ = 'IN', paradigm = 'step', I_off = 0,
     # Synaptic parameters (GABA-A transmitter)
     #-------------------------------------------------------------------------------
     p['Egaba'] = -80           # GABA reversal potential (Desthexe et al 1994)
-    p['aGABA'] = 5          # ms^(-1) mM^(-1)
+    p['aGABA'] = 0.53          # ms^(-1) mM^(-1)
     p['bGABA'] = 0.184         # ms^(-1)
     p['gGABA'] = 1             # µS
     p['GABAamp'] = 1           # mM
@@ -88,7 +88,7 @@ def params(cond = 'WT37', I_scale = 1, typ = 'IN', paradigm = 'step', I_off = 0,
         #-------------------------------------------------------------------------------
         p['A']    = 0.00014         # surface area (29,000um^2 in cm^2)
         p['gK']   = 10              # potassium conductance (mS/cm^2)
-        p['gNa']  = 50.0            # sodium conductance (mS/cm^2)
+        p['gNa']  = 0            # sodium conductance (mS/cm^2)
         p['gL']   = 0.1             # leak conductance (mS/cm^2)
 
         # Reversal potentials
