@@ -65,7 +65,7 @@ def params(cond = 'WT37', I_scale = 1, typ = 'IN', paradigm = 'step', I_off = 0,
     p['Egaba'] = -80           # GABA reversal potential (Desthexe et al 1994)
     p['aGABA'] = 0.53          # ms^(-1) mM^(-1)
     p['bGABA'] = 0.184         # ms^(-1)
-    p['gGABA'] = 1             # µS
+    p['gGABA'] = 5             # µS
     p['GABAamp'] = 1           # mM
     p['GABAdur'] = 1           # ms
 
